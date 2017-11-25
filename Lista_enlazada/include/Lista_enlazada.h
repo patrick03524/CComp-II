@@ -8,10 +8,9 @@ class Lista_enlazada
     public:
         nodo *first;
         Lista_enlazada();
-        void append(int);
+        void add_nodo(int);
         void borrar(int);
         void print();
-        //Lista_enlazada operator+(const Lista_enlazada &B);
         void concatenar(Lista_enlazada B);
 };
 

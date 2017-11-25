@@ -26,3 +26,18 @@
 1511574857 source:d:\programming\c++\depositorio_cc2\ccomp-ii\lista_enlazada\src\nodo.cpp
 	"nodo.h"
 
+1511622569 source:d:\ccomp-ii\lista_enlazada\src\nodo.cpp
+	"nodo.h"
+
+1511622569 d:\ccomp-ii\lista_enlazada\include\nodo.h
+	<iostream>
+
+1511626896 source:d:\ccomp-ii\lista_enlazada\src\lista_enlazada.cpp
+	"Lista_enlazada.h"
+
+1511626896 d:\ccomp-ii\lista_enlazada\include\lista_enlazada.h
+	<nodo.h>
+
+1511626978 source:d:\ccomp-ii\lista_enlazada\main.cpp
+	<Lista_enlazada.h>
+

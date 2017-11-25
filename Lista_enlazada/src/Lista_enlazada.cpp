@@ -4,7 +4,7 @@ Lista_enlazada::Lista_enlazada()
 {
     this->first = NULL;
 }
-void Lista_enlazada::append(int value)
+void Lista_enlazada::add_nodo(int value)
 {
     nodo *element = new nodo;
 	element->val = value;
@@ -67,25 +67,7 @@ void Lista_enlazada::print()
 	}
 	cout << endl;
 }
-/*
-Lista_enlazada:: operator+(const Lista_enlazada &B) borrar
-{
-    Lista_enlazada C;
-	nodo *n_1;
-	n_1 = this->first;
-	while (n_1->next != NULL){
-	C.append(n_1->val);
-	n_1 = n_1->next;
-	}
-	C.append(n_1->val);
-	n_1 = B.first;
-	while (n_1->next != NULL){
-	C.append(n_1->val);
-	n_1 = n_1->next;
-	}
-	C.append(n_1->val);
-	return C;
-}*/
+
 void Lista_enlazada::concatenar(Lista_enlazada B)
 {
     nodo *n_1;
