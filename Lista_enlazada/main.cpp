@@ -4,13 +4,12 @@
 Lista_enlazada Josephus(int muertos, int soldados){
 	Lista_enlazada A;
 	for (int i = 1; i <= soldados; i++)
-	A.append(i);
+        A.append(i);
 	int sold_dead = (muertos-1) % soldados;
 	for (soldados; soldados > 2; soldados--){
-	//if (soldados == 3) break;
-	A.borrar(sold_dead);
-	sold_dead = sold_dead + (muertos-1);
-	sold_dead = sold_dead % (soldados-1);
+        A.borrar(sold_dead);
+        sold_dead = sold_dead + (muertos-1);
+        sold_dead = sold_dead % (soldados-1);
 	}
 	return A;
 }
