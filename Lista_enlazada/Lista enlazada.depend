@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1511576548 source:d:\programming\c++\lista enlazada\main.cpp
+	<Lista_enlazada.h>
+
+1511574857 source:d:\programming\c++\lista enlazada\src\nodo.cpp
+	"nodo.h"
+
+1511575239 d:\programming\c++\lista enlazada\include\nodo.h
+	<iostream>
+
+1511575831 source:d:\programming\c++\lista enlazada\src\lista_enlazada.cpp
+	"Lista_enlazada.h"
+
+1511584380 d:\programming\c++\lista enlazada\include\lista_enlazada.h
+	<nodo.h>
+
