@@ -14,3 +14,15 @@
 1511584380 d:\programming\c++\lista enlazada\include\lista_enlazada.h
 	<nodo.h>
 
+1511584449 source:d:\programming\c++\depositorio_cc2\ccomp-ii\lista_enlazada\main.cpp
+	<Lista_enlazada.h>
+
+1511584380 d:\programming\c++\depositorio_cc2\ccomp-ii\lista_enlazada\include\lista_enlazada.h
+	<nodo.h>
+
+1511575239 d:\programming\c++\depositorio_cc2\ccomp-ii\lista_enlazada\include\nodo.h
+	<iostream>
+
+1511574857 source:d:\programming\c++\depositorio_cc2\ccomp-ii\lista_enlazada\src\nodo.cpp
+	"nodo.h"
+
