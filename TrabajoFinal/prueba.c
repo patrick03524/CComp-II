@@ -54,35 +54,10 @@ void lista_doble<T>::agregar_al_inicio(T nuevo_valor){
 void lista_doble<T>::ordenar_lista(){
 
 }*/
-template<typename T>
-void  lista_doble<T>::imprimir_lista(){
-	node<T> *temp = head;
-	if(!head){
-		cout <<"Lista Vacia"<<endl;
-	}
-	else{
-		while(temp){
-			temp->imprimir_nodo();
-			if(!temp -> next){
-				cout <<"NULL";
-			}
-			temp = temp->next;
-		}
-	}
-	cout <<endl;
-}
+
 
 int main(int argc, char *argv[]) {
-	//template<typename T>
-	lista_doble<int> my_lista;
-	/*Agregar otro metodo con el que se pueda agregar al final
-	otro que solo es el encargado de ordenar la lista, otro que borre
-	un nodo y lo demas*/
-	my_lista.agregar_al_inicio(2);
-	my_lista.agregar_al_inicio(3);
-	//my_lista.agregar_al_inicio(5);
-	//my_lista.agregar_al_inicio(7);
-	my_lista.imprimir_lista();
+
 	return 0;
 }
 

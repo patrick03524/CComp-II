@@ -14,3 +14,45 @@
 1511591456 d:\programming\c++\trabajofinal\include\lista_circular.h
 	<Nodo.h>
 
+1511619348 source:d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\main.cpp
+	<iostream>
+	<Lista_simple.h>
+	<Lista_doble.h>
+	<Lista_circular.h>
+	<Lista_doblemente_circular.h>
+
+1511591256 source:d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\src\lista_circular.cpp
+	"Lista_circular.h"
+
+1511591456 d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\include\lista_circular.h
+	<Nodo.h>
+
+1511618686 d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\include\nodo.h
+	<iostream>
+
+1511619309 source:d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\src\lista_doble.cpp
+	"Lista_doble.h"
+
+1511619309 d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\include\lista_doble.h
+	<Nodo.h>
+
+1511591273 source:d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\src\lista_doblemente_circular.cpp
+	"Lista_doblemente_circular.h"
+
+1511591273 d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\include\lista_doblemente_circular.h
+
+1511591229 source:d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\src\lista_simple.cpp
+	"Lista_simple.h"
+
+1511591456 d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\include\lista_simple.h
+	<Nodo.h>
+
+1511618922 source:d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\src\nodo.cpp
+	"Nodo.h"
+
+1511619077 source:d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\src\nodo_doble.cpp
+	"Nodo_doble.h"
+
+1511619026 d:\programming\c++\depositorio_cc2\ccomp-ii\trabajofinal\include\nodo_doble.h
+	<iostream>
+

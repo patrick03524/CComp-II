@@ -1,15 +1,15 @@
 #include "Lista_doble.h"
-
-Lista_doble::Lista_doble()
+template<typename T>
+Lista_doble<T>::Lista_doble()
 {
     head = NULL;
     tail = NULL;
 }
 template<typename T>
-void lista_doble<T>::agregar_al_inicio(T nuevo_valor){
+void Lista_doble<T>::agregar_al_inicio(T nuevo_valor){
 	///Comprobar que el elemento ya esta
-	node<T> *new_nodo = new node<T>(nuevo_valor);
-	node<T> *temp = head;
+	Nodo<T> *new_nodo = new Nodo<T>(nuevo_valor);
+	Nodo<T> *temp = head;
 	if(!head){
 		head=tail=new_nodo;
 	}
@@ -20,4 +20,21 @@ void lista_doble<T>::agregar_al_inicio(T nuevo_valor){
 			temp=temp->next;
 		}
 	}
+}
+template<typename T>
+void  Lista_doble<T>::imprimir_lista(){
+	Nodo<T> *temp = head;
+	if(!head){
+		cout <<"Lista Vacia"<<endl;
+	}
+	else{
+		while(temp){
+			temp->imprimir_nodo();
+			if(!temp -> next){
+				cout <<"NULL";
+			}
+			temp = temp->next;
+		}
+	}
+	cout <<endl;
 }
