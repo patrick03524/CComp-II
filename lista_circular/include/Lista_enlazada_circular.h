@@ -8,8 +8,8 @@ private:
 	nodo *first;
 public:
     Lista_enlazada_circular();
-    void append(int);
-    void del(int);
+    void add_nodo(int);
+    void borrar(int);
 	void print();
 
 };

@@ -5,7 +5,7 @@ Lista_enlazada_circular::Lista_enlazada_circular()
     this->first = NULL;
 }
 
-void Lista_enlazada_circular::append(int value){
+void Lista_enlazada_circular::add_nodo(int value){
     nodo *element = new nodo;
     element->val = value;
     if (first == NULL){
@@ -34,7 +34,7 @@ void Lista_enlazada_circular::append(int value){
         }
     }
 }
-void Lista_enlazada_circular::del(int i){
+void Lista_enlazada_circular::borrar(int i){
 		nodo* n_1;
 		nodo* prev;
 		n_1 = this->first;
