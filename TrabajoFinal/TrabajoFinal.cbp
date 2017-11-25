@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TrabajoFinal" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TrabajoFinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TrabajoFinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Lista_circular.h" />
+		<Unit filename="include/Lista_doble.h" />
+		<Unit filename="include/Lista_doblemente_circular.h" />
+		<Unit filename="include/Lista_simple.h" />
+		<Unit filename="include/Nodo.h" />
+		<Unit filename="include/Nodo_doble.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Lista_circular.cpp" />
+		<Unit filename="src/Lista_doble.cpp" />
+		<Unit filename="src/Lista_doblemente_circular.cpp" />
+		<Unit filename="src/Lista_simple.cpp" />
+		<Unit filename="src/Nodo.cpp" />
+		<Unit filename="src/Nodo_doble.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
